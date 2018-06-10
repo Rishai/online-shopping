@@ -6,9 +6,13 @@
 <div class="list-group">
 
 
-	<c:forEach items="${categories}" var="category">
-		<a href="${contextRoot}/show/category/${category.id}/products" class="list-group-item" id="a_${category.name}">${category.name}</a>
-	</c:forEach>
+<c:forEach items="${categories}" var="category">	
+		<a href="#" class="list-group-item">${category.name}</a>
 
-	 
+</c:forEach>	 
 </div>
+
+<!-- <c:forEach items="${categories}" var="category">
+		<a href="${contextRoot}/show/category/${category.id}/products" class="list-group-item" id="a_${category.name}">${category.name}</a>
+	</c:forEach>	 
+	 -->

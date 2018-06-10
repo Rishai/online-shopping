@@ -5,7 +5,8 @@
 <script src="${js}/productsController.js"></script>
 <div class="container" ng-app="ShoppingApp" ng-controller="ProductController as pCtrl" >
 
-	<div class="row" ng-init="pCtrl.fetchProducts()">
+	<div style="
+    margin-top: 21px;class="row" ng-init="pCtrl.fetchProducts()">
 
 		<div class="col-md-3">
 			<%@include file="./shared/sidebar.jsp"%>
